@@ -1,0 +1,21 @@
+components/
+Contains all React components (UI building blocks).
+
+Organize by feature or type for scalability (e.g., Button/, Header/, TodoList/).
+
+Each component folder can include .js/.jsx, .css or .module.css, and tests files.
+
+
+public/
+Holds static files served directly without processing (HTML template, favicon, manifest, robots.txt).
+
+Assets placed here are referenced by absolute paths, e.g., /logo.png in index.html or <img src="/logo.png" />.
+
+Not imported into JS, just copied as-is at build time.
+
+assets/ (usually inside src/)
+Stores images, fonts, icons, and other media imported within React components.
+
+Vite or build tool optimizes and hashes these files for caching.
+
+Imported using relative paths in JS: import logo from './assets/logo.png'.
