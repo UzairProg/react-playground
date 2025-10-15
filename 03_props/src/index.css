@@ -1,0 +1,20 @@
+body{
+  background-color: #111;
+  color: #fff;
+}
+
+.card{
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.parent{
+  margin: 20px;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
