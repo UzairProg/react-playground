@@ -1,0 +1,30 @@
+body{
+  background-color: #111;
+  color: white;
+}
+
+h1{
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar div{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  gap: 20px;
+}
+
+.navbar div LINK{
+  color: white;
+}
