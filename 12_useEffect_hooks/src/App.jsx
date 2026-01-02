@@ -42,3 +42,12 @@ const App = () => {
 }
 
 export default App
+
+/* 
+useEffect: it is a hook that allows you to perform side effects in function components. It takes two arguments: a function (the effect) and an optional array of dependencies.
+When the dependencies change, the effect function is executed.
+
+In the provided code, there are two state variables, a and b, each with its own useEffect hook. The first useEffect hook is triggered whenever the value of a changes, calling the aChanging function, which logs a message to the console. Similarly, the second useEffect hook is triggered when b changes, calling the bChanging function.
+
+in short, useEffect helps to run specific code in response to changes in state or props.
+*/
