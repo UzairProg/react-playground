@@ -21,7 +21,11 @@ function App() {
 
 
     const newTask = { title: notesTitle, details: notesDetails };
-    let copyTasks = [...tasks];
+    let copyTasks = [...tasks]; 
+    /* makes an acutal copy of tasks array.. 
+    why not copyTasks = tasks ? Because that would just create a reference to the same array in memory 
+    if we change copyTasks, tasks would also change
+    */ 
     copyTasks.push(newTask);
     setTasks(copyTasks);
   }
@@ -37,7 +41,7 @@ function App() {
     function deleteNote(idx) {
     let copyTasks = [...tasks];
     copyTasks.splice(idx, 1); // splice removes 1 element at index idx
-    setTasks(copyTasks);
+    setTasks(copyTasks); // as we delete a note, we update the tasks state.. and automatically the UI re-renders
   }
 
   return (

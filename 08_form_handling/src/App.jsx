@@ -38,6 +38,7 @@ function App() {
       <form action="">
         <input type="text" value={title} onChange={(e) => {
           setTitle(e.target.value)
+          console.log(title)
         }} />
         <button onClick={(e) =>{
           handleSubmit(e)
