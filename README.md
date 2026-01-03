@@ -21,9 +21,11 @@ Welcome to the **React Playground**! 🎉 This repository is a curated collectio
 
 ### 🖼️ Quick glimpses
 
-![Mini project preview 1](public/previews/screenshot-1.png)
-![Mini project preview 2](public/previews/screenshot-2.png)
-![Mini project preview 3](public/previews/screenshot-3.png)
+Screenshots live in `public/previews/` (case-sensitive on git). Current captures:
+
+![Mini project preview 1](public/previews/Screenshot-1.png)
+![Mini project preview 2](public/previews/Screenshot-2.png)
+![Mini project preview 3](public/previews/Screenshot-3.png)
 
 ### ✨ What You'll Learn
 
