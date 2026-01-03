@@ -19,7 +19,7 @@ function App() {
 
   let printUserData = <h1 className="text-gray-400 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold">Loading...</h1>
 
-    if (userImages.length > 0) {
+    if (userImages.length > 0) { // as userImages changes, this will re-evaluate.. why? cuz of react's re-rendering on state change
     printUserData = userImages.map(function (elem, idx) {
 
       return <div key={idx}>
@@ -32,7 +32,7 @@ function App() {
     <div className='bg-black flex flex-col items-center justify-start text-white p-8 gap-10 min-h-screen'>
       <h1 className='font-bold uppercase text-2xl'>image gallery</h1>
       <div className=" text-white flex gap-8 flex-wrap justify-center h-[82%] mt-auto">
-        {printUserData} 
+        {printUserData} {/* here is the user data.. how it is automatically updated? cuz of useEffect on index change */}
       </div>
     <div className='flex gap-8 items-center'>
       <button className='bg-amber-300 px-4 py-2 rounded-[6px] text-black font-semibold active:scale-97'
