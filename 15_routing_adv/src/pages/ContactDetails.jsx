@@ -13,3 +13,14 @@ function ContactDetails() {
 }
 
 export default ContactDetails
+
+/* 
+
+here useParams is used to extract the dynamic parameter 'id' from the URL.
+useParams is a hook provided by react-router-dom that allows you to access the parameters of the current route.
+
+so, it automatically captures the value of 'id' from the URL and makes it available in the component.
+if the URL is /contact/123, then id will be 123.
+if there's no id provided in the URL, id will be undefined.
+
+*/

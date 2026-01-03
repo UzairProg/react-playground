@@ -30,6 +30,7 @@ function App() {
         </Route>
         <Route path="/contact/:id" element={<ContactDetails />}/>
         <Route path="*" element={<h1 className='flex justify-center items-center text-white text-3xl font-bold'>404 Not Found</h1>} />
+        {/* the above route handles all undefined routes and displays a 404 message */}
       </Routes>
       <Footer />
     </div>
