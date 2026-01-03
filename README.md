@@ -20,8 +20,7 @@
 Welcome to the **React Playground**! 🎉 This repository is a curated collection of various React projects designed to help you learn and explore different concepts in React development. Each folder contains a unique project that focuses on specific features or techniques in React.
 
 ### 🖼️ Quick glimpses
-
-Screenshots live in `public/previews/` (case-sensitive on git). Current captures:
+- Few images showing previews of the mini projects
 
 ![Mini project preview 1](public/previews/Screenshot-1.png)
 ![Mini project preview 2](public/previews/Screenshot-2.png)
