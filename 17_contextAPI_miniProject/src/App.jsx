@@ -3,13 +3,13 @@ import Navbar from './components/Navbar'
 import { ThemeContextData } from './context/ThemeContext.jsx'
 function App() {
 
-  const data = useContext(ThemeContextData)
+  const data = useContext(ThemeContextData) // grab theme state + updater from context
   return (
     <div className='bg-black min-h-screen flex flex-col gap-10'>
       <Navbar />
       <button className='py-4 px-8 rounded bg-blue-600 text-white m-auto block active:scale-95 transition-transform'
       onClick={() =>{
-        data.setTheme(data.theme === 'light' ? 'dark' : 'light')
+        data.setTheme(data.theme === 'light' ? 'dark' : 'light') // flip theme value
       }}
       >
         Toggle Theme
