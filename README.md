@@ -7,7 +7,7 @@
 
 <div align="center">
 
-**A comprehensive learning repository with 17+ interactive React projects**
+**A comprehensive learning repository with 17+ interactive React mini projects**
 
 *Master React step-by-step, from basics to advanced concepts*
 
@@ -18,6 +18,12 @@
 ---
 
 Welcome to the **React Playground**! 🎉 This repository is a curated collection of various React projects designed to help you learn and explore different concepts in React development. Each folder contains a unique project that focuses on specific features or techniques in React.
+
+### 🖼️ Quick glimpses
+
+![Mini project preview 1](public/previews/screenshot-1.png)
+![Mini project preview 2](public/previews/screenshot-2.png)
+![Mini project preview 3](public/previews/screenshot-3.png)
 
 ### ✨ What You'll Learn
 
